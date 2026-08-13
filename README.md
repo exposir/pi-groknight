@@ -48,6 +48,23 @@ pi install npm:pi-groknight
 
 Copy `themes/groknight.json` into `~/.pi/agent/themes/`.
 
+## Terminal background (important)
+
+pi does not paint the page background — the page shows your terminal's own
+background, while Grok Build paints its viewport with `#141414`. To get the
+exact layered look of Grok Build, set your terminal background to `#141414`.
+
+A ready-made **Ghostty theme** is included at `extras/ghostty/groknight`:
+
+```bash
+mkdir -p ~/.config/ghostty/themes
+cp extras/ghostty/groknight ~/.config/ghostty/themes/
+echo 'theme = groknight' >> ~/.config/ghostty/config
+```
+
+Restart your terminal afterwards. Other terminals: set background to
+`#141414`, foreground to `#e1e1e1`, cursor to `#c8c8c8`.
+
 ## Usage
 
 After installing, run `/settings` in pi and pick **groknight** under Theme, or set it directly in `~/.pi/agent/settings.json`:

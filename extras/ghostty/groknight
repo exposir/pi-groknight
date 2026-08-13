@@ -1,0 +1,27 @@
+# groknight — Ghostty terminal theme matching xAI Grok Build's GrokNight
+# Page background #141414 = Grok Build's TUI viewport bg (bg_base).
+# pi does not paint the page background, so set this terminal theme to get
+# the exact layered look of Grok Build (page #141414, blocks #1c1c1c/#242424).
+background = #141414
+foreground = #e1e1e1
+cursor-color = #c8c8c8
+cursor-text = #0a0a0a
+selection-background = #363636
+selection-foreground = #e1e1e1
+
+palette = 0=#0a0a0a
+palette = 1=#db4b4b
+palette = 2=#9ece6a
+palette = 3=#e0af68
+palette = 4=#7aa2f7
+palette = 5=#bb9af7
+palette = 6=#7dcfff
+palette = 7=#e1e1e1
+palette = 8=#585858
+palette = 9=#f7768e
+palette = 10=#73daca
+palette = 11=#e0af68
+palette = 12=#7aa2f7
+palette = 13=#9d7cd8
+palette = 14=#1abc9c
+palette = 15=#ffffff
