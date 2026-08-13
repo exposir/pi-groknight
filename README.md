@@ -1,55 +1,56 @@
 # pi-groknight
 
-**GrokNight** 主题 for [pi](https://github.com/earendil-works/pi-coding-agent) — 忠实移植自 xAI [Grok Build](https://github.com/xai-org/grok-build) 的默认暗色主题（`groknight` / `grok-night` / `dark`）。
+**GrokNight** theme for [pi](https://github.com/earendil-works/pi-coding-agent) — a faithful port of xAI [Grok Build](https://github.com/xai-org/grok-build)'s default dark theme (`groknight` / `grok-night` / `dark`).
 
-> 配色提取自 grok-build 源码 `crates/codegen/xai-grok-pager-render/src/theme/groknight.rs`
-> 与 `crates/codegen/xai-grok-pager-render/assets/grok-night.tmTheme`（Apache-2.0）。
+> Palette extracted from the grok-build sources:
+> `crates/codegen/xai-grok-pager-render/src/theme/groknight.rs` and
+> `crates/codegen/xai-grok-pager-render/assets/grok-night.tmTheme` (Apache-2.0).
 
-## 风格
+## Style
 
-- **中性灰底**：`#141414` 主背景、`#0a0a0a` 终端底、`#1c1c1c` 代码块
-- **品红强调**：`#bb9af7` 作为助手/思考/工具标题的标识色（GrokNight 的标志）
-- **TokyoNight 配乐**：蓝 `#7aa2f7`、绿 `#9ece6a`、红 `#f7768e`、黄 `#e0af68`、青 `#7dcfff`
+- **Neutral gray base**: `#141414` main background, `#0a0a0a` terminal base, `#1c1c1c` code blocks
+- **Magenta accent**: `#bb9af7` as the signature color for assistant/thinking/tool titles
+- **TokyoNight palette**: blue `#7aa2f7`, green `#9ece6a`, red `#f7768e`, yellow `#e0af68`, cyan `#7dcfff`
 
-## 调色板
+## Palette
 
-| 类别 | 颜色 | Hex |
-|------|------|-----|
-| 终端背景 | ![#0a0a0a](https://img.shields.io/badge/-%230a0a0a.svg) | `#0a0a0a` |
-| 主背景 | ![#141414](https://img.shields.io/badge/-%23141414.svg) | `#141414` |
-| 代码块背景 | ![#1c1c1c](https://img.shields.io/badge/-%231c1c1c.svg) | `#1c1c1c` |
-| 高亮背景 | ![#242424](https://img.shields.io/badge/-%23242424.svg) | `#242424` |
-| 主文本 | ![#e1e1e1](https://img.shields.io/badge/-%23e1e1e1.svg) | `#e1e1e1` |
-| 次要文本 | ![#c8c8c8](https://img.shields.io/badge/-%23c8c8c8.svg) | `#c8c8c8` |
-| 强调（品红） | ![#bb9af7](https://img.shields.io/badge/-%23bb9af7.svg) | `#bb9af7` |
-| 蓝 | ![#7aa2f7](https://img.shields.io/badge/-%237aa2f7.svg) | `#7aa2f7` |
-| 青 | ![#7dcfff](https://img.shields.io/badge/-%237dcfff.svg) | `#7dcfff` |
-| 绿 | ![#9ece6a](https://img.shields.io/badge/-%239ece6a.svg) | `#9ece6a` |
-| 黄 | ![#e0af68](https://img.shields.io/badge/-%23e0af68.svg) | `#e0af68` |
-| 橙 | ![#ff9e64](https://img.shields.io/badge/-%23ff9e64.svg) | `#ff9e64` |
-| 红 | ![#f7768e](https://img.shields.io/badge/-%23f7768e.svg) | `#f7768e` |
+| Slot | Color | Hex |
+|------|-------|-----|
+| Terminal base | ![#0a0a0a](https://img.shields.io/badge/-%230a0a0a.svg) | `#0a0a0a` |
+| Main background | ![#141414](https://img.shields.io/badge/-%23141414.svg) | `#141414` |
+| Code block background | ![#1c1c1c](https://img.shields.io/badge/-%231c1c1c.svg) | `#1c1c1c` |
+| Highlight background | ![#242424](https://img.shields.io/badge/-%23242424.svg) | `#242424` |
+| Primary text | ![#e1e1e1](https://img.shields.io/badge/-%23e1e1e1.svg) | `#e1e1e1` |
+| Secondary text | ![#c8c8c8](https://img.shields.io/badge/-%23c8c8c8.svg) | `#c8c8c8` |
+| Accent (magenta) | ![#bb9af7](https://img.shields.io/badge/-%23bb9af7.svg) | `#bb9af7` |
+| Blue | ![#7aa2f7](https://img.shields.io/badge/-%237aa2f7.svg) | `#7aa2f7` |
+| Cyan | ![#7dcfff](https://img.shields.io/badge/-%237dcfff.svg) | `#7dcfff` |
+| Green | ![#9ece6a](https://img.shields.io/badge/-%239ece6a.svg) | `#9ece6a` |
+| Yellow | ![#e0af68](https://img.shields.io/badge/-%23e0af68.svg) | `#e0af68` |
+| Orange | ![#ff9e64](https://img.shields.io/badge/-%23ff9e64.svg) | `#ff9e64` |
+| Red | ![#f7768e](https://img.shields.io/badge/-%23f7768e.svg) | `#f7768e` |
 
-## 安装
+## Install
 
-### 从 GitHub（本仓库）
+### From GitHub (this repo)
 
 ```bash
 pi install git:github.com/exposir/pi-groknight
 ```
 
-### 从 npm（发布后）
+### From npm (once published)
 
 ```bash
 pi install npm:pi-groknight
 ```
 
-### 手动
+### Manual
 
-把 `themes/groknight.json` 复制到 `~/.pi/agent/themes/`。
+Copy `themes/groknight.json` into `~/.pi/agent/themes/`.
 
-## 使用
+## Usage
 
-安装后在 pi 中输入 `/settings`，在 Appearance / Theme 中选择 **groknight**；或直接在 `~/.pi/agent/settings.json` 中设置：
+After installing, run `/settings` in pi and pick **groknight** under Theme, or set it directly in `~/.pi/agent/settings.json`:
 
 ```json
 {
@@ -57,6 +58,6 @@ pi install npm:pi-groknight
 }
 ```
 
-## 许可
+## License
 
-MIT。移植自 [xai-org/grok-build](https://github.com/xai-org/grok-build)（Apache-2.0），配色归 xAI 所有。
+MIT. Ported from [xai-org/grok-build](https://github.com/xai-org/grok-build) (Apache-2.0); the palette is xAI's.
