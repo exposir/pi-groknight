@@ -1,0 +1,17 @@
+{
+  "name": "pi-groknight",
+  "version": "1.0.0",
+  "description": "GrokNight theme for pi — a faithful port of xAI Grok Build's default dark theme (neutral gray base + magenta accent + TokyoNight palette)",
+  "keywords": [
+    "pi-package",
+    "pi-theme",
+    "theme",
+    "grok",
+    "groknight",
+    "tokyo-night"
+  ],
+  "license": "MIT",
+  "pi": {
+    "themes": ["./themes"]
+  }
+}
